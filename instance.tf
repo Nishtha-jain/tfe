@@ -9,6 +9,6 @@ resource "aws_instance" "example" {
 
 resource "null_resource" "example1" {
   provisioner "local-exec" {
-    command = "echo ${aws_instance.example.private_ip}
+    command = "echo ${aws_instance.example.private_ip}"
   }
 }
