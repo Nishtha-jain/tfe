@@ -7,6 +7,6 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
 
   provisioner "local-exec" {
-    command = "echo $(self.private_ip), $(self.public_ip) >> private_and_public_ips.txt"
+    command = "echo ${self.private_ip}, ${self.public_ip} >> private_and_public_ips.txt"
   }
 }
