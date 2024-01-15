@@ -6,7 +6,7 @@ provider "tfe" {
 
 resource "null_resource" "set_tfe_variable" {
   provisioner "local-exec" {
-    command = "./set_tfe_variable.sh ${var.tfe_token}"
+    command = "./set_tfe_variable.sh"
   }
 }
 
