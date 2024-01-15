@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set Terraform Enterprise variable using TFE API
-TFE_TOKEN= "tNNiUTsRuHNj8Q.atlasv1.PVBnIzPamPr04bpJI6zGmNlPm67zJE77914yeyl3pEaf83aKaw7nRk8rS83BYWOfjU8"
+TFE_TOKEN= "MVND97ap0tLvnA.atlasv1.ikO86FefeRKonHDDQS8mvD8zVd9LmzyBrhOnABp9Cnm9zbrDYzsLnrTDDdPpLLfhzZE"
 TFE_ORG= "Practise_terraform"
 VARIABLE_NAME="Test"
 VARIABLE_VALUE="123"
@@ -9,7 +9,7 @@ VARIABLE_VALUE="123"
 # Create or update the variable
 curl -s --header "Authorization: Bearer $TFE_TOKEN" \
      --header "Content-Type: application/vnd.api+json" \
-     --request PATCH \
+     --request POST\
      --data @- \
      "https://app.terraform.io/api/v2/vars/$TFE_ORG/$VARIABLE_NAME" <<EOF
 {
