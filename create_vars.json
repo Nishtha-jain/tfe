@@ -1,0 +1,22 @@
+
+        {
+                "data": {
+                        "type":"vars",
+                        "attributes": {
+                                "key":"Age",
+                                "value":"26",
+                                "description":"Create variable through API",
+                                "category":"terraform",
+                                "hcl":false,
+                                "sensitive":false
+                        },
+                        "relationships": {
+                                "workspace": {
+                                        "data": {
+                                                "id":"ws-NoYPyMHoX2HwQ7vb",
+                                                "type":"workspaces"
+                                        }
+                                }
+                        }
+                }
+        }
