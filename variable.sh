@@ -1,7 +1,7 @@
 #!/bin/bash
 WORKSPACE_ID="ws-NoYPyMHoX2HwQ7vb"
 TFE_HOST="app.terraform.io"
-TFE_TOKEN="8uwz6z8htdQA9Q.atlasv1.zg3sEnK8WcmCUGTeBPQHhRpTlD7zsppkzXkB6dPcbn9PwY7dkVr1uvr1LUKHUNS4JcM"
+TFE_TOKEN="SsBfxBrNJejcbg.atlasv1.7DYm83oV7ADTCAegL6oJM1Jufx4oEyf2UTUdSkyFcM23AIo7Ejd6Ck2YWtw1CngiQWA"
 variable_keys=("FName", "LName", "Age")
 value=("Nishtha", "jain", "26")
 
